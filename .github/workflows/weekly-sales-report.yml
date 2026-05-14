@@ -2,8 +2,8 @@ name: Weekly Sales Report
 
 on:
   schedule:
-    # Run every Monday at 9:00 AM PT (16:00 UTC)
-    - cron: '0 16 * * 1'
+    # Run every Monday at 7:00 AM PST (15:00 UTC)
+    - cron: '0 15 * * 1'
   workflow_dispatch:
     inputs:
       date:
